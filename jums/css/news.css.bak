@@ -1,0 +1,80 @@
+.menubar{
+	margin: 0 auto;
+	width: 1010px;
+	height: 100px;
+	background-color: #ffffff;
+
+}
+  .menubar ul{
+    padding:0px;
+    margin-top: 0px;
+
+  }
+  .menubar li{
+    list-style: none;
+    float:left;
+    text-align:center;
+
+  }
+
+  .menubar a{
+  	width:200px;
+    height: 90px;
+  	display:block;
+ 	color:#1e90ff;
+	text-align: center;
+
+	margin-right: 1px;
+
+  }
+  .menubar a:link,.menubar a:visited{
+  color:#ffffff;
+  font-size: 30px;
+  background-color: #483d8b;
+  text-decoration:none;
+  } 
+  .menubar a:hover{
+  	font-size: 30px;
+  color:#483d8b;
+  background-color: #ffffff;
+
+  text-decoration:none;
+  }
+.header{
+	margin:0 auto;
+	width: 1000px;
+	height: 120px;
+	background-color: #ffffff;
+	padding: 5px;
+}
+.author{
+	margin:0 auto;
+	width: 1000px;
+	height: 50px;
+	background-color: #ffffff;
+	padding: 5px;
+}
+.contents{
+	margin:0 auto;
+	width: 1000px;
+	height: 500px;
+	background-color: #ffffff;
+	font-size: 25px;
+	padding: 5px;
+}
+.footer{
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+	color: #ffffff;
+	background-color: #483d8b;
+	padding: 5px;
+}
+textarea{
+    width:600px;//初始宽度
+    max-width:750px;//最大宽度
+    height:60px;//初始高度
+    max-height:100px;//最大高度
+	resize:none;
+    overflow-y:auto;//让滚动条自适应，保证兼容性
+}

@@ -1,0 +1,33 @@
+<%@ page contentType="text/html;charset=utf-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册成功-Register Successful</title>
+</head>
+<style type="text/css">
+.errorbox{
+	width: 1000px;
+	height: 200px;
+
+	color: red;
+	font-size: 30px;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.button{
+	width:200px;
+	height: 100px;
+	background-color: #1e90ff;
+	color: #ffffff; 
+	font-size: 40px;
+	margin:0 auto;
+}
+
+</style>
+<body>
+	<div class="errorbox">
+		<b>恭喜您，注册成功！马上点击“返回”进入登录界面登录系统</b><br><p align="center">
+		<a href="../login.jsp" class="button">返回管理用户</a>
+	</div>
+</body>
+</html>>

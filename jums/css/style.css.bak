@@ -1,0 +1,436 @@
+﻿body{
+	background-color:#1e90ff;
+}
+
+.back{
+width:1200px;
+height:auto;
+background-color:#ccffff;
+margin:0 auto;
+}
+.bigbox{
+width:1200px;
+height:auto;
+background-color:#ffffff;
+margin:0 auto;
+}
+
+/*--------------登录界面的样式开始------------------*/
+      .login_back{
+        /*background-image: url(../image/login.jpg);*/
+      }
+      .bigbox_login{
+          width:1200px;
+          height:auto;
+          /*background-color:#1e90ff;*/
+          background-image: url(../image/login.jpg);
+          margin:20 auto;
+          padding: 10px 10px 10px 10px;
+		  border: 2px solid #1e90ff;
+      }
+      .login{
+          width: 360px;
+          height:300px;
+          background-color: #ffffff;
+          /*margin-top: 20px;*/
+          margin: 20  auto;
+          padding: 20px;
+          border: 2px solid #1e90ff;
+          opacity: 0.6 !important;
+
+      }
+      .footer_login{
+          width:1200px;
+          height:80px;
+          position:relative;
+          float:left ;
+          margin-top:100px;
+          padding-top: 10px;
+          font-size:10px;
+          color:#fff;
+      }
+/*----------登录界面的样式结束--------------*/
+
+
+
+
+
+/*----------------注册界面的样式-------------------------*/
+      .bigbox_register{
+          width:1200px;
+          height:auto;
+          /*background-color:#1e90ff;*/
+          background-image: url(../image/register.jpg);
+          margin:20 auto;
+          padding: 10px 10px 10px 10px;
+		  border: 2px solid #fff;
+      }
+      .footer_register{
+          width:1200px;
+          height:80px;
+          position:relative;
+          float:left ;
+          margin-top:100px;
+          padding-top: 10px;
+          font-size:10px;
+          color:#fff;
+      }
+      /*注册页面样式*/
+      .register{
+          width: 360px;
+          height: auto;
+          background-color: #ffffff;
+          margin: 20px auto;
+          padding: 20px;
+          border: 2px solid #1e90ff;
+          opacity: 0.6 !important;
+      }
+/*--------------注册界面的样式-------------------------*/
+
+
+
+
+
+
+.header{
+width:1198px;
+height:300px;
+margin:5px 0px 0px 0px;
+border: 1px solid #1e90ff;
+background-image:url(../image/back.jpg);
+}
+.functionbox{
+width:1200px;
+height:auto;
+background-color:#fff;
+}
+.buttonbox{
+width:1200px;
+height:50px;
+background-color:#1e90ff;
+margin:5px 0px 5px 0px;
+padding-top: 5px;
+}
+.menubar{
+  width:1180px;
+  height:44px;
+  background-color:#1e90ff;
+  margin:0px 10px 0px 10px; 
+  
+  position: relative;
+  /*border: 1px solid #1e90ff;*/
+}
+
+.username{
+	margin-top:10px;
+	margin-left:0px;
+	}
+
+.loginleft{
+  padding:0px;
+  margin:0 auto;
+  width:580px;
+  height: 38px;
+  font-size:20px;
+  float:left;
+  z-index:10;
+
+  }
+  .loginleft ul{
+    padding:0px;
+    margin:0px;
+
+  }
+  .loginleft li{
+    list-style: none;
+    float:left;
+    text-align:center;
+    width:100px;
+    height: 40px;
+  }
+
+  .loginleft a{
+  display:block;
+  color:#1e90ff;
+  padding:5px;
+  margin:5px 5px 5px 5px;
+  }
+  .loginleft a:link,.loginleft a:visited{
+  color:#ffffff;
+  background-color: #1e90ff;
+  text-decoration:none;
+  } 
+  .loginleft a:hover{
+  color:#1e90ff;
+  background-color: #ffffff;
+  font-size:20px;
+  text-decoration:none;
+  }
+
+/*用户名的样式 ---开始*/
+
+.username_style{
+  margin:6px;
+  padding:5px;
+  float: left;
+  color: #fff;
+}
+/*用户名的样式 ---结束*/
+
+.loginright{
+  padding:0px;
+  margin:0 auto;
+  width:580px;
+  height: 38px;
+  font-size:20px;
+  float:right;
+  z-index:10;
+
+  }
+  .loginright ul{
+
+    padding:0px;
+    margin:0px;
+
+  }
+  .loginright li{
+    list-style: none;
+    float:right;
+    text-align:center;
+    width:100px;
+  }
+
+  .loginright a{
+  display:block;
+  color:#1e90ff;
+  padding:5px;
+  padding-bottom: 6px;
+  margin:5px;
+  }
+  .loginright a:link,.loginright a:visited{
+  color:#ffffff;
+  background-color: #1e90ff;
+  text-decoration:none;
+  } 
+  .loginright a:hover{
+  color:#1e90ff;
+  background-color: #ffffff;
+  font-size:20px;
+  text-decoration:none;
+  }
+
+
+
+
+
+.leftbox{
+  float: left;
+	width:320px;
+	height:auto;;
+	background-color:#fff;
+	margin:0px 0px 5px 10px;
+	overflow:auto;
+/*  position: relative;*/
+	/*border: 1px solid #1e90ff;*/
+}
+.leftboxtitle{
+    font-size: 20px;
+    color: #1e90ff;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: -7px;
+    padding-top: -5px;
+    background-color: #fff;
+
+}
+.leftcontentbox{
+    width: 305px;
+    height: auto;
+	background-color:#fff;
+    /*border:1px solid #99ccff;*/
+    margin-left: 5px;
+    margin-top: 10px;
+	margin-bottom:5px;
+}
+/*搜索框的样式*/
+.leftsearchbox{
+
+    width: 305px;
+    height: 85px;
+    border:1px solid #99ccff;
+    margin-left: 5px;
+    margin-top: 5px;
+
+
+}
+.search_on_web{
+    margin-left: 20px;
+    margin-top: 1px;
+    color: #cccccc;
+}
+.leftbox ul{
+  font-size: 15px;
+
+}
+.leftbox li{
+    list-style-type: decimal;
+    text-align: left;
+    margin: 0px 1px 1px 1px;
+
+}
+.leftbox a:link,.leftbox a:visited{
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+.leftbox a:hover{
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+.rightbox{
+  height: auto;
+	width:850px;
+  color: #000000;
+	background-color:#fff;
+	margin:-20px 5px 0px 340px;
+  font-size: 15px;
+  /*position: relative;*/
+	/*border: 1px solid #1e90ff;*/
+}
+
+.footer{
+	width:1200px;
+	height:80px;
+	/*position:relative;
+	left:0px;
+	bottom:0px;*/
+
+	margin-top:0;
+	background-color:#1e90ff;
+	padding-top: 10px;
+	font-size:10px;
+	color:#ffffff;
+}
+
+
+
+.erweimabox{
+    width: 80px;
+    height: 80px;
+    margin:10px;
+    margin-top: -60px; 
+    float: right;
+    background-image:url(../image/二维码.png);
+}
+
+
+
+/*登陆界面的样式*/
+
+
+
+
+
+
+
+
+/*modify.jsp中的样式*/
+.xiugai{
+  width: 350px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #1e90ff;
+}
+
+/*滑动门效果*/
+
+
+.cur{
+	color:#f60;
+	border-bottom:1px solid #fff;
+	font-weight:bold;
+	background:#fff;
+	cursor:default;
+}
+#tab_,dl{
+	position:relative;
+	float:left;
+	height:100px;
+	width:300px;
+}
+h4,dt{
+	float:left;
+	height:20px;
+	margin:0 0 0 8px;
+	display:inline;
+	line-height:20px;
+	width:60px;
+	border:1px solid #ccc;
+	position:relative;
+	z-index:11;text-align:center;
+	font-weight:normal;
+	cursor:pointer;
+	background:#eee;
+}
+.c,dd{
+	position:absolute;
+	top:21px;
+	border:1px solid #ccc;
+	left:0;
+	width:250px;
+	padding:20px;
+	overflow:hidden;
+	display:block;
+}
+#tab_{
+	clear:left;
+}
+h1{
+	clear:left;
+	padding:10px 0;
+}
+#tab_1.cur{
+	color:#f60
+}
+#tab_2.cur{
+	color:blue
+}
+#tab_3.cur{
+	color:green
+}
+
+
+
+/*管理员界面样式*/
+
+.adminbox{
+  width: 1200px;
+  height: auto;
+
+}
+
+.managerbox{
+  width: 1100px;
+  height: auto;
+
+  padding: 20px 50px 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

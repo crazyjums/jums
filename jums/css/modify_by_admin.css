@@ -1,0 +1,33 @@
+.modifybox{
+	width: auto;
+	height: auto;
+	margin: 50px 50px 50px 50px;
+	background-color: #ccffff;
+	border: 2px solid #1e90ff;
+	color: #1e90ff;
+	font-size: 30px;
+	margin:0 auto;
+	margin-top: 40px;
+	opacity:0.6 !important;
+}
+.button{
+	width:200px;
+	height: 100px;
+	background-color: #1e90ff;
+	color: #ffffff; 
+	font-size: 25px;
+	margin:0 auto;
+}
+body{
+	background-image: url(../image/success.jpg);
+}
+.footer{
+	margin: 0 auto;
+	margin-top: 300px;
+	width: 1200px;
+	height: 80px;
+	color: #1e90ff;
+	font-size: 20px;
+
+	/*opacity: 0.6 !important;*/
+}

@@ -1,0 +1,33 @@
+<%@ page contentType="text/html;charset=utf-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>删除用户成功-Delete User Successful</title>
+</head>
+<style type="text/css">
+.errorbox{
+	width: 1000px;
+	height: 200px;
+
+	color: red;
+	font-size: 30px;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.button{
+	width:200px;
+	height: 100px;
+	background-color: #1e90ff;
+	color: #ffffff; 
+	font-size: 40px;
+	margin:0 auto;
+}
+
+</style>
+<body>
+	<div class="errorbox">
+		<b>删除用户成功！马上点击“返回”返回管理用户界面继续管理用户</b><br><p align="center">
+		<a href="../management_users.jsp" class="button">返回</a>
+	</div>
+</body>
+</html>>

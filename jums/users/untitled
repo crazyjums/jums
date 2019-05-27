@@ -1,0 +1,35 @@
+
+<!--  <%@ page language="java" import="javabean.Dao.UsersDao" contentType="text/html;charset=utf-8" %>
+<jsp:useBean id="usersDao" class="javabean.Dao.UsersDao" scope="page" />
+<jsp:useBean id="users" class="javabean.entity.Users" scope="page" />
+<jsp:setProperty name="users" property="*"/>
+
+<%
+# if(usersDao.queryByNamePwd(users)){
+# 		String nick = rs.getString("nickname");
+# 		session.setAttribute("nickname",nick);
+# 		response.sendRedirect("main.jsp");
+	
+# }else{
+# 	    response.sendRedirect("jsp/error_login.jsp");	
+# }
+%>
+
+ -->
+
+ <!-- 
+ <%@ page language="java" import="javabean.Dao.UsersDao" contentType="text/html;charset=utf-8" %>
+<jsp:useBean id="usersDao" class="javabean.Dao.UsersDao" scope="page" />
+<jsp:useBean id="users" class="javabean.Dao.Users" scope="page" />
+<jsp:setProperty name="users" property="*"/>
+<%
+# if(usersDao.insert(users)){
+# 	response.sendRedirect("../remander/register_success.jsp");
+# }else{
+# 	response.sendRedirect("../errors/error_register.jsp");	
+# }
+
+
+
+%>
+ -->

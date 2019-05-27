@@ -1,0 +1,32 @@
+.box{
+        width:220 px;
+        height: 35px;
+  
+        
+    }
+    input{ 
+        border: 1px solid #1e90ff;
+   
+    }
+    .search{
+        width: 65px;
+        height: 32px;
+        float: right;
+        margin-right: 40px;
+        background: #1e90ff;
+        color: white;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer;
+    }
+    .search a:hover{
+        width: 65px;
+        height: 32px;
+        float: right;
+        margin-right: 40px;
+        background: #456789;
+        color: white;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer;
+    }

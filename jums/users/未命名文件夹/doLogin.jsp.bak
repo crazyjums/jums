@@ -1,0 +1,16 @@
+ <%@ page language="java" contentType="text/html;charset=utf-8" %>
+<jsp:useBean id="usersDao" class="Dao.UsersDao" scope="page" />
+<jsp:useBean id="users" class="entity.Users" scope="page" />
+<jsp:setProperty name="users" property="*"/>
+<%
+ if(usersDao.queryByNamePwd(users)){
+ 		String nick = usersDao.getNickname(users);
+		//ArrayList<Users> user = UsersDao.getAll();
+		//String nick = user.getNickname();
+ 		session.setAttribute("nickname",nick);
+ 		response.sendRedirect("main.jsp");
+	
+ }else{
+ 	    response.sendRedirect("errors/error_login.jsp");	
+ }
+%>
